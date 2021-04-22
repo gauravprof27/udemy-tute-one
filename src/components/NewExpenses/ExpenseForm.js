@@ -50,7 +50,7 @@ const ExpenseForm = (props) => {
             amount: enteredAmount,
             date: new Date(enteredDate)
         }
-        console.log(expenseData);
+        console.log("Expense Data  ===>===",expenseData);
         props.onSaveExpenseData(expenseData);
         setEnteredTitle('');
         setEnteredAmount('');
